@@ -17,28 +17,28 @@ function convertLength(){
     }else{
         switch(unit){                                       // Conversión según la unidad elegida
             case "meters":
-                result = input;
+                result = input + " m";
                 break;
             case "kilometers":
-                result = input * 0.001;
+                result = input * 0.001 + " Km";
                 break;
             case "centimeters":
-                result = input * 100;
+                result = input * 100 + " cm";
                 break;
             case "millimeters":
-                result = input * 1000;
+                result = input * 1000 + " mm";
                 break;
             case "miles":
-                result = input * 0.00062137;
+                result = input * 0.00062137 + " mi";
                 break;
             case "yards":
-                result = input * 1.0936133;
+                result = input * 1.0936133 + " yd";
                 break;
             case "feet":
-                result = input * 3.2808399;
+                result = input * 3.2808399 + " ft";
                 break;
             case "inches":
-                result = input * 39.3700787;
+                result = input * 39.3700787 + " in";
                 break;
         }
         
@@ -62,25 +62,25 @@ function convertVolume(){
     }else{
         switch(unit){                                       // Conversión según la unidad elegida
             case "liters":
-                result = input;
+                result = input + " L";
                 break;
             case "milliliters":
-                result = input * 1000;
+                result = input * 1000 + " ml";
                 break;
             case "gallons":
-                result = input * 0.26417205;
+                result = input * 0.26417205 + " gal";
                 break;
             case "quarts":
-                result = input * 1.05668821;
+                result = input * 1.05668821 + " qt";
                 break;
             case "pints":
-                result = input * 2.11337642;
+                result = input * 2.11337642 + " pt lqd";
                 break;
             case "cups":
-                result = input * 4.22675284;
+                result = input * 4.22675284 + " cup";
                 break;
             case "fluid ounces":
-                result = input * 33.8140227;
+                result = input * 33.8140227 + " fl oz";
                 break;
         }
         
@@ -103,19 +103,19 @@ function convertVolume(){
     }else{
         switch(unit){                                       // Conversión según la unidad elegida
             case "kilograms":
-                result = input;
+                result = input + " Kg";
                 break;
             case "grams":
-                result = input * 1000;
+                result = input * 1000 + " g";
                 break;
             case "milligrams":
-                result = input * 1000000;
+                result = input * 1000000 + " mg";
                 break;
             case "pounds":
-                result = input * 2.20462262;
+                result = input * 2.20462262 + " lb";
                 break;
             case "ounces":
-                result = input * 35.273962;
+                result = input * 35.273962 + " oz";
                 break;
         }
         
@@ -138,13 +138,13 @@ function convertTemperature(){
     }else{
         switch(unit){                                       // Conversión según la unidad elegida
             case "celsius":
-                result = input;
+                result = input + " °C";
                 break;
             case "fahrenheit":
-                result = input * 33.8;
+                result = input * 33.8 + " °F";
                 break;
             case "kelvin":
-                result = input * 274.15;
+                result = input * 274.15 + " °K";
                 break;
         }
         
